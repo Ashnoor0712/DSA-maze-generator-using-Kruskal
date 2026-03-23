@@ -1,4 +1,4 @@
-#Maze Generator using Kruskal’s Algorithm in C++
+# Maze Generator using Kruskal’s Algorithm in C++
 
 1. Overview
 This project generates a random maze in C++ using Kruskal’s algorithm and the Union-Find (Disjoint Set) data structure. The maze is built from a grid of cells, where walls are removed based on randomly weighted edges while ensuring that the final structure remains connected and acyclic.
