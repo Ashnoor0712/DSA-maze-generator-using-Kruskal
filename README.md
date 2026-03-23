@@ -1,18 +1,18 @@
 #Maze Generator using Kruskal’s Algorithm in C++
 
-* Overview
+1. Overview
 This project generates a random maze in C++ using Kruskal’s algorithm and the Union-Find (Disjoint Set) data structure. The maze is built from a grid of cells, where walls are removed based on randomly weighted edges while ensuring that the final structure remains connected and acyclic.
 
 The output is displayed as an ASCII maze in the terminal.
 
-* Features
+2. Features
 - Random maze generation on a grid
 - Kruskal’s algorithm for building a minimum spanning tree
 - Union-Find with path compression and union by rank
 - ASCII visualization of the generated maze
 - Random edge weights for different maze layouts
 
-* Concepts Covered
+3. Concepts Covered
 - Graph algorithms
 - Kruskal’s algorithm
 - Minimum spanning tree
@@ -22,7 +22,7 @@ The output is displayed as an ASCII maze in the terminal.
 - Grid graph representation
 - Randomized algorithm behavior
 
-* Tech Stack
+4. Tech Stack
 - Language: C++
 - Standard Libraries:
   - `iostream`
@@ -32,10 +32,10 @@ The output is displayed as an ASCII maze in the terminal.
   - `ctime`
   - `unordered_set`
 
-* File Structure
+5. File Structure
 - `main.cpp` — implementation of maze generation using Kruskal’s algorithm
 
-* How It Works
+6. How It Works
 1. A grid of size `R x C` is treated as a graph
 2. Each cell becomes a node
 3. Edges are created between neighboring cells
@@ -44,7 +44,7 @@ The output is displayed as an ASCII maze in the terminal.
 6. Union-Find prevents cycles while connecting all cells
 7. The final maze is printed in ASCII form
 
-* How to Run
+7.  How to Run
 
 Compile the program:
 
